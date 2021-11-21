@@ -220,5 +220,7 @@ string func(string str){
 
 int main()
 {
-    cout << func("1.21");
+    string str;
+    getline(cin, str);
+    cout << func(str);
 }
