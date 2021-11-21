@@ -187,7 +187,7 @@ string func(string str){
     if(str[0] == '-'){
         znak = "1";
     }
-    if(str == "0" or str == "0.0" or str == "0,0"){
+    if(str == "0" or str == "0.0" or str == "0,0" or ToInt(str) == 0){
         result = znak;
         for(int i = 0; i < 31; i++){
             result += '0';
