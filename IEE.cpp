@@ -1,3 +1,43 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+long long len(string str){
+    long long len = 0;
+    for(int i = 0; str[i] != '\0'; i++){
+        len++;
+    }
+    return len;
+}
+
+string ToString(int num){
+    string res = "", result = "";
+    int point;
+    if(num == 0){
+        return "0";
+    }
+    while(num > 0){
+        point = num % 10;
+        res += '0' + point;
+        num = num / 10;
+    }
+    for(int i = len(res) - 1; i >= 0; i--){
+        result += res[i];
+    }
+    return result;
+}
+
+long long ToInt(string str){
+    long long num = 0;
+    for(int i = 0; i < len(str); i++){
+        if(str[i] >= '0' and str[i] <= '9'){
+            num = num * 10 + (str[i] - '0');
+        }
+    }
+    return num;
+}
+
 string itc_slice_str(string str, int start, int end){
     long long lenght = len(str);
     string result;
@@ -12,6 +52,42 @@ string itc_slice_str(string str, int start, int end){
     }
     for(int i = start; i <= end; i++){
         result = result + str[i];
+    }
+    return result;
+}
+
+string bin_num_drob(string drob){
+    long long lend = len(drob), posl = ToInt(drob), step = 1;
+    string nc;
+    for(int i = 0; i < lend; i++){
+        step = step * 10;
+    }
+    for(int i = 0; i < 23; i++){
+        posl = posl * 2;
+        if(len(ToString(posl)) > len(drob)){
+            nc += "1";
+        } else{
+            nc += "0";
+        }
+        posl = posl % step;
+    }
+    return nc;
+}
+
+long long bin_num_cel(long long number){
+    int cif;
+    long long result = 0, chislo = 0, len = 0;
+    while(number > 0){
+        cif = number % 2;
+        chislo = chislo * 10 + cif;
+        number = number / 2;
+        len++;
+    }
+    while(len > 0){
+        cif = chislo % 10;
+        result = result * 10 + cif;
+        chislo = chislo / 10;
+        len--;
     }
     return result;
 }
@@ -104,77 +180,6 @@ string get_exponent(string str){
         exp += expp;
     }
     return exp;
-}
-
-string ToString(int num){
-    string res = "", result = "";
-    int point;
-    if(num == 0){
-        return "0";
-    }
-    while(num > 0){
-        point = num % 10;
-        res += '0' + point;
-        num = num / 10;
-    }
-    for(int i = len(res) - 1; i >= 0; i--){
-        result += res[i];
-    }
-    return result;
-}
-
-string bin_num_drob(string drob){
-    long long lend = len(drob), posl = ToInt(drob), step = 1;
-    string nc;
-    for(int i = 0; i < lend; i++){
-        step = step * 10;
-    }
-    for(int i = 0; i < 23; i++){
-        posl = posl * 2;
-        if(len(ToString(posl)) > len(drob)){
-            nc += "1";
-        } else{
-            nc += "0";
-        }
-        posl = posl % step;
-    }
-    return nc;
-}
-
-long long ToInt(string str){
-    long long num = 0;
-    for(int i = 0; i < len(str); i++){
-        if(str[i] >= '0' and str[i] <= '9'){
-            num = num * 10 + (str[i] - '0');
-        }
-    }
-    return num;
-}
-
-long long bin_num_cel(long long number){
-    int cif;
-    long long result = 0, chislo = 0, len = 0;
-    while(number > 0){
-        cif = number % 2;
-        chislo = chislo * 10 + cif;
-        number = number / 2;
-        len++;
-    }
-    while(len > 0){
-        cif = chislo % 10;
-        result = result * 10 + cif;
-        chislo = chislo / 10;
-        len--;
-    }
-    return result;
-}
-
-long long len(string str){
-    long long len = 0;
-    for(int i = 0; str[i] != '\0'; i++){
-        len++;
-    }
-    return len;
 }
 
 string func(string str){
