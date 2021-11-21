@@ -94,6 +94,7 @@ long long bin_num_cel(long long number){
 
 string get_mantis(string str){
     long long lenght = len(str), num;
+    bool isdrob = false;
     string point, bin_cel, drob, mantis;
     for(int i = 0; i < lenght; i++){
         if(str[i] >= '0' and str[i] <= '9'){
@@ -104,9 +105,17 @@ string get_mantis(string str){
             num = bin_num_cel(num);
             bin_cel += to_string(num);
             point = "";
+            isdrob = true;
         }
-        if(str[i + 1] == '\0'){
+        if(str[i + 1] == '\0' and isdrob == true){
             drob += point;
+            point = "";
+        }
+        if(str[i + 1] == '\0' and isdrob == false){
+            num = ToInt(point);
+            num = bin_num_cel(num);
+            bin_cel += to_string(num);
+            drob = "0";
             point = "";
         }
     }
@@ -117,18 +126,18 @@ string get_mantis(string str){
             mantis += bin_drob;
             mantis = itc_slice_str(mantis, 0, 22);
         }
-        else{;
+        else{
             mantis += bin_drob;
             mantis = itc_slice_str(mantis, 0, 22);
         }
     }
     if(ToInt(bin_cel) == 0){
         while(ToInt(bin_cel) != 1){
-            bin_cel += bin_drob[0];
+            bin_cel = bin_drob[0];
             bin_drob = itc_slice_str(bin_drob, 1, len(bin_drob) - 1);
-            mantis += bin_drob;
         }
-        mantis += "0";
+        mantis += bin_drob;
+        mantis = itc_slice_str(mantis, 0, 22);
     }
     return mantis;
 }
@@ -136,6 +145,7 @@ string get_mantis(string str){
 string get_exponent(string str){
     long long lenght = len(str), num;
     string point, bin_cel, drob, mantis;
+    bool isdrob = false;
     for(int i = 0; i < lenght; i++){
         if(str[i] >= '0' and str[i] <= '9'){
             point += str[i];
@@ -145,9 +155,17 @@ string get_exponent(string str){
             num = bin_num_cel(num);
             bin_cel += to_string(num);
             point = "";
+            isdrob = true;
         }
-        if(str[i + 1] == '\0'){
+        if(str[i + 1] == '\0' and isdrob == true){
             drob += point;
+            point = "";
+        }
+        if(str[i + 1] == '\0' and isdrob == false){
+            num = ToInt(point);
+            num = bin_num_cel(num);
+            bin_cel += to_string(num);
+            drob = "0";
             point = "";
         }
     }
