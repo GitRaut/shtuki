@@ -19,8 +19,8 @@ string ToString(int num){
     }
     while(num > 0){
         point = num % 10;
-        res += '0' + point;
         num = num / 10;
+        res += ('0' + point);
     }
     for(int i = len(res) - 1; i >= 0; i--){
         result += res[i];
@@ -64,7 +64,7 @@ string bin_num_drob(string drob){
     }
     for(int i = 0; i < 23; i++){
         posl = posl * 2;
-        if(len(ToString(posl)) > len(drob)){
+        if(len(to_string(posl)) > len(drob)){
             nc += "1";
         } else{
             nc += "0";
@@ -102,7 +102,7 @@ string get_mantis(string str){
         if(str[i] == ',' or str[i] == '.'){
             num = ToInt(point);
             num = bin_num_cel(num);
-            bin_cel += ToString(num);
+            bin_cel += to_string(num);
             point = "";
         }
         if(str[i + 1] == '\0'){
@@ -143,7 +143,7 @@ string get_exponent(string str){
         if(str[i] == ',' or str[i] == '.'){
             num = ToInt(point);
             num = bin_num_cel(num);
-            bin_cel += ToString(num);
+            bin_cel += to_string(num);
             point = "";
         }
         if(str[i + 1] == '\0'){
@@ -169,7 +169,7 @@ string get_exponent(string str){
         mantis += "0";
     }
     num = 127 + step;
-    string expp = ToString(bin_num_cel(num));
+    string expp = to_string(bin_num_cel(num));
     string exp;
     if(len(expp) < 8){
         while(len(exp) < 8 - len(expp)){
@@ -222,5 +222,5 @@ int main()
 {
     string str;
     getline(cin, str);
-    cout << func(str);
+    cout << func(str) << endl;
 }
