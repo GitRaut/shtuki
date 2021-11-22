@@ -29,11 +29,15 @@ string ToString(int num){
 }
 
 long long ToInt(string str){
-    long long num = 0;
+    long long num = 0, col = 0;
     for(int i = 0; i < len(str); i++){
         if(str[i] >= '0' and str[i] <= '9'){
             num = num * 10 + (str[i] - '0');
+            col++;
         }
+    }
+    if(num == 0 and col == 0){
+        num = 1;
     }
     return num;
 }
@@ -62,7 +66,7 @@ string bin_num_drob(string drob){
     for(int i = 0; i < lend; i++){
         step = step * 10;
     }
-    for(int i = 0; i < 32; i++){
+    for(int i = 0; i < 500; i++){
         posl = posl * 2;
         if(len(to_string(posl)) > len(drob)){
             nc += "1";
@@ -215,10 +219,10 @@ string func(string str){
 	{
 		result = znak;
 		for (int i = 0; i < 8; i++){
-			result += '1';
+			result += "1";
 		}
 		for (int i = 0; i < 23; i++){
-			result += '0';
+			result += "0";
 		}
 	}
 	else if (str == "-inf" or str == "-INF" or str == "-Inf" or str == "-infinity" or str == "-INFINITY" or str == "-Infinity"){
