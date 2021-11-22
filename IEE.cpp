@@ -62,7 +62,7 @@ string bin_num_drob(string drob){
     for(int i = 0; i < lend; i++){
         step = step * 10;
     }
-    for(int i = 0; i < 23; i++){
+    for(int i = 0; i < 32; i++){
         posl = posl * 2;
         if(len(to_string(posl)) > len(drob)){
             nc += "1";
@@ -179,12 +179,12 @@ string get_exponent(string str){
     }
     if(ToInt(bin_cel) == 0){
         while(ToInt(bin_cel) != 1){
-            bin_cel += bin_drob[0];
+            bin_cel = bin_drob[0];
             bin_drob = itc_slice_str(bin_drob, 1, len(bin_drob) - 1);
-            mantis += bin_drob;
             step--;
         }
-        mantis += "0";
+        mantis += bin_drob;
+        mantis = itc_slice_str(mantis, 0, 22);
     }
     num = 127 + step;
     string expp = to_string(bin_num_cel(num));
