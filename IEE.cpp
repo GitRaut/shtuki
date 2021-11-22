@@ -211,7 +211,7 @@ string func(string str){
             result += '0';
         }
     }
-    else if (str == "inf" || str == "INF" || str == "Inf" || str == "infinity" || str == "INFINITY" || str == "Infinity")
+    else if (str == "inf" or str == "INF" or str == "Inf" or str == "infinity" or str == "INFINITY" or str == "Infinity" or str == "+inf" or str == "+INF" or str == "+Inf" or str == "+infinity" or str == "+INFINITY" or str == "+Infinity")
 	{
 		result = znak;
 		for (int i = 0; i < 8; i++){
@@ -221,7 +221,17 @@ string func(string str){
 			result += '0';
 		}
 	}
-	else if (str == "nan" || str == "NaN" || str == "NAN")
+	else if (str == "-inf" or str == "-INF" or str == "-Inf" or str == "-infinity" or str == "-INFINITY" or str == "-Infinity"){
+        znak = "1";
+        result = znak;
+		for (int i = 0; i < 8; i++){
+			result += '1';
+		}
+		for (int i = 0; i < 23; i++){
+			result += '0';
+		}
+	}
+	else if (str == "nan" or str == "NaN" or str == "NAN")
 	{
 		result = znak;
 		for (int i = 0; i < 31; i++){
