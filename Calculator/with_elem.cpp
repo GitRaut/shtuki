@@ -20,6 +20,9 @@ int symbol(string str){
     else if(str[0] == '+' or (str[0] >= '0' and str[0] <= '9')){
         return 1;
     }
+    else if(str[0] == '*'){
+        return 10;
+    }
 }
 
 string slice(string str){

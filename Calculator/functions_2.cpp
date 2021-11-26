@@ -53,6 +53,7 @@ string result_str(string first, string second, string znak){
         first = slice(first);
         second = slice(second);
         if(fir[0] == '-' and sec[0] == '-') return "-" + sum(first, second);
+        else if(fir[0] == '-' and sec[0] != '-') return "-" + sum(first, second);
         return sum(first, second);
     }
     else if(flag == -1){
@@ -64,5 +65,12 @@ string result_str(string first, string second, string znak){
         else if(fir[0] == '-' and sec[0] == '-') return "-" + subtraction(first, second);
         return subtraction(first, second);
     }
-    return otvet;
+    else if(flag == 10){
+        first = slice(first);
+        second = slice(second);
+        return multiply(first, second);
+    }
+    first = slice(first);
+    second = slice(second);
+    return "-" + multiply(first, second);
 }

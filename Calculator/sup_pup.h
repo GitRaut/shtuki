@@ -2,15 +2,22 @@
 #define SUP_PUP_H_INCLUDED
 #include <iostream>
 #include <string>
+#include <vector>
+#include <stdlib.h>
+#include <windows.h>
+#include <vfw.h>
+
 using namespace std;
 
 void menu();
 void help();
 void information();
+void main2();
 
 void error();
 void check_col( int col);
 void check_command(string com);
+void check_value(string znak);
 void answer(string first, string second, string znak);
 
 long long itc_len(string str);
@@ -31,5 +38,8 @@ string min_str(string first, string second);
 string subtraction(string first, string second);
 string itc_slice_str(string str, int start, int end);
 string result_str(string first, string second, string znak);
+string multiply(string first, string second);
+string count_of_nul(long long iter);
+
 
 #endif // SUP_PUP_H_INCLUDED

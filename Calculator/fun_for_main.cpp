@@ -1,13 +1,18 @@
 #include "sup_pup.h"
 
+HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+
 void answer(string first, string second, string znak){
     cout << endl << "Answer:" << endl;
+    SetConsoleTextAttribute(handle, 14);
     cout << first << " " << znak << " " << second << " = ";
 }
 
 void error(){
+    SetConsoleTextAttribute(handle, 12);
     cout << endl << "Error! Not the correct value!" << endl;
     cout << "Try again." << endl << endl;
+    SetConsoleTextAttribute(handle, 15);
 }
 
 void check_col( int col){
@@ -15,7 +20,10 @@ void check_col( int col){
         cout << "Enter the command:" << endl;
     }
     else {
-        cout << "Enter the command:" << " \"-/help\" (to find out what the calculator can do);" << endl;
+        cout << "Enter the command:";
+        SetConsoleTextAttribute(handle, 10);
+        cout << " \"-/help\" (to find out what the calculator can do);" << endl;
+        SetConsoleTextAttribute(handle, 15);
     }
 }
 
