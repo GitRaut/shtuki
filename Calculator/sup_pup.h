@@ -9,10 +9,12 @@
 
 using namespace std;
 
-void menu();
+void menu_part1();
+void menu_part2();
 void help();
-void information();
 void main2();
+void information();
+void print(string print);
 
 void error();
 void check_col( int col);

@@ -4,7 +4,7 @@ HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 
 void answer(string first, string second, string znak){
     cout << endl << "Answer:" << endl;
-    SetConsoleTextAttribute(handle, 14);
+    SetConsoleTextAttribute(handle, 6);
     cout << first << " " << znak << " " << second << " = ";
 }
 
@@ -32,10 +32,14 @@ void check_command(string com){
         help();             //function for printing "help" menu with list of commands
     }
     else if(com == "/menu"){
-        menu();             //function for printing main menu
+        menu_part1();             //function for printing main menu
+        menu_part2();
     }
     else if(com == "/inf"){
         information();      //function for printing inf about calculator
+    }
+    else if(com == "/start"){
+        main2();
     }
     else if(com != "/help" and com != "/menu" and com != "/start" and com != "/inf"){
         error();
