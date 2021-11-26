@@ -2,10 +2,11 @@
 
 HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 
-void answer(string first, string second, string znak){
-    cout << endl << "Answer:" << endl;
+string answer(string first, string second, string znak){
+    string ans;
     SetConsoleTextAttribute(handle, 6);
-    cout << first << " " << znak << " " << second << " = ";
+    ans = first + " " + znak + " " + second + " = ";
+    return ans;
 }
 
 void error(){

@@ -5,12 +5,13 @@
 #include <vector>
 #include <stdlib.h>
 #include <windows.h>
-#include <vfw.h>
+#include <fstream>
 
 using namespace std;
 
 void menu_part1();
 void menu_part2();
+void reader(string ans, string res);
 void help();
 void main2();
 void information();
@@ -20,7 +21,8 @@ void error();
 void check_col( int col);
 void check_command(string com);
 void check_value(string znak);
-void answer(string first, string second, string znak);
+string check_otv(string result);
+string answer(string first, string second, string znak);
 
 long long itc_len(string str);
 long long itc_ToInt(string str);

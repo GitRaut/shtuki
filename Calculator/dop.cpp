@@ -37,9 +37,30 @@ void print(string print){
         else if((print[i] >= 'A' and print[i] <= 'Z') or (print[i] >= 'a' and print[i] <= 'z')){
             Sleep(1);
         }
-        else if(print[i] == ' ' and ((print[i - 1] >= 'A' and print[i - 1] <= 'Z') or (print[i - 1] >= 'a - 1' and print[i] <= 'z - 1'))){
-            Sleep(2);
-        }
     }
     cout << endl;
+}
+
+void reader(string ans, string res){
+    ofstream out("D:\\Code\\calculator\\History.txt", ios::app);
+    if (out.is_open())
+    {
+        out << ans << res << endl;
+        out << "_________________________________" << endl << endl;
+    }
+    out.close();
+}
+
+string check_otv(string result){
+    string otv;
+    if(result[0] == '-' and result[1] == '-'){
+        SetConsoleTextAttribute(handlep, 6);
+        otv = itc_slice_str(result, 2, itc_len(result) - 1);
+        return otv;
+    } else{
+        SetConsoleTextAttribute(handlep, 6);
+        otv = result;
+        return otv;
+    }
+    return "0";
 }

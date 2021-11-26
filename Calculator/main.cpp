@@ -3,7 +3,7 @@
 HANDLE handlem = GetStdHandle(STD_OUTPUT_HANDLE);
 
 void main2(){
-    string first_num = "", second_num = "", znak = "", result;//commands for console, numbers, operator(+, - , *), result of calculating                                                             //count of iterations in while
+    string first_num = "", second_num = "", znak = "", result, flag, ans;//commands for console, numbers, operator(+, - , *), result of calculating                                                             //count of iterations in while
     while(znak != "+" and znak != "-" and znak != "*"){
         cout << "What do you want to do with numbers?: (+, -, *)" << endl;
         SetConsoleTextAttribute(handlem, 6);
@@ -19,13 +19,13 @@ void main2(){
     SetConsoleTextAttribute(handlem, 6);
     cin >> second_num;
     SetConsoleTextAttribute(handlem, 15);
-    answer(first_num, second_num, znak);                      //functions for printing answer
+    cout << endl << "Answer:" << endl;
+    cout << answer(first_num, second_num, znak);                      //functions for printing answer
     result = result_str(first_num, second_num, znak);
-    if(result[0] == '-' and result[1] == '-'){
-    cout << itc_slice_str(result, 2, itc_len(result) - 1) << endl << endl;
-    } else{
-        cout << result << endl << endl;
-    }
+    cout << check_otv(result) << endl << endl;
+    ans = answer(first_num, second_num, znak);
+    flag = check_otv(result);
+    reader(ans, flag);
     SetConsoleTextAttribute(handlem, 15);
     znak = "";
 }

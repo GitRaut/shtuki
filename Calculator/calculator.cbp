@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="History.txt" />
 		<Unit filename="Print.cpp" />
 		<Unit filename="dop.cpp" />
 		<Unit filename="fun_for_main.cpp" />
