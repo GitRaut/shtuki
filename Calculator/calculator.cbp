@@ -40,6 +40,7 @@
 		<Unit filename="functions_2.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="max_min.cpp" />
+		<Unit filename="print.wav" />
 		<Unit filename="sup_pup.h" />
 		<Unit filename="with_elem.cpp" />
 		<Extensions />

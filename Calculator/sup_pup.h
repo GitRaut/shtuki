@@ -21,8 +21,6 @@ void error();
 void check_col( int col);
 void check_command(string com);
 void check_value(string znak);
-string check_otv(string result);
-string answer(string first, string second, string znak);
 
 long long itc_len(string str);
 long long itc_ToInt(string str);
@@ -42,8 +40,10 @@ string min_str(string first, string second);
 string subtraction(string first, string second);
 string itc_slice_str(string str, int start, int end);
 string result_str(string first, string second, string znak);
+string answer(string first, string second, string znak);
 string multiply(string first, string second);
 string count_of_nul(long long iter);
+string check_otv(string result);
 
 
 #endif // SUP_PUP_H_INCLUDED
