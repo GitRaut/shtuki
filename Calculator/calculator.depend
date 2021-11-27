@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1637968688 source:d:\code\calculator\main.cpp
+1638019060 source:d:\code\calculator\main.cpp
 	"sup_pup.h"
 
 1637955864 source:d:\code\calculator\print.cpp
@@ -28,6 +28,6 @@
 1637843667 source:d:\code\calculator\with_elem.cpp
 	"sup_pup.h"
 
-1637968460 source:d:\code\calculator\dop.cpp
+1638019126 source:d:\code\calculator\dop.cpp
 	"sup_pup.h"
 

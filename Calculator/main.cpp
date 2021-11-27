@@ -36,7 +36,7 @@ int main()
     string command = "";
     menu_part1();                     //function for printing main menu
     menu_part2();
-    PlaySound(TEXT("music.wav"), NULL, SND_LOOP | SND_ASYNC);
+    mciSendString(TEXT("play music.wav"), NULL, 0, NULL);
     while(command != "/finish"){//finish stops the program
         check_col(col);
         SetConsoleTextAttribute(handlem, 6);

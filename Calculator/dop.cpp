@@ -17,6 +17,7 @@ void check_value(string znak){
 }
 
 void print(string print){
+    mciSendString(TEXT("play clava.wav"), NULL, 0, NULL);
     for(int i = 0; i < itc_len(print); i++){
         if(print[i] == '*'){
             SetConsoleTextAttribute(handlep, 3);
@@ -38,6 +39,7 @@ void print(string print){
             Sleep(1);
         }
     }
+    mciSendString(TEXT("stop clava.wav"), NULL, 0, NULL);
     cout << endl;
 }
 
@@ -46,7 +48,7 @@ void reader(string ans, string res){
     if (out.is_open())
     {
         out << ans << res << endl;
-        out << "_________________________________" << endl << endl;
+        out << "-" << endl << endl;
     }
     out.close();
 }

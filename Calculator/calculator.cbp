@@ -34,13 +34,13 @@
 		</Compiler>
 		<Unit filename="History.txt" />
 		<Unit filename="Print.cpp" />
+		<Unit filename="clava.wav" />
 		<Unit filename="dop.cpp" />
 		<Unit filename="fun_for_main.cpp" />
 		<Unit filename="functions.cpp" />
 		<Unit filename="functions_2.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="max_min.cpp" />
-		<Unit filename="print.wav" />
 		<Unit filename="sup_pup.h" />
 		<Unit filename="with_elem.cpp" />
 		<Extensions />
