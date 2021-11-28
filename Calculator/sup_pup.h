@@ -19,8 +19,6 @@ void information();
 void print(string print);
 void change_music(string com);
 bool check_numbers(string num);
-void check_number_res1(string num);
-void check_number_res2(string num);
 void reader(string ans, string res);
 
 void error();
