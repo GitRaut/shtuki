@@ -22,27 +22,3 @@ void reader(string ans, string res){
     }
     out.close();
 }
-
-void check_number_res1(string num){
-    while(!(check_numbers(num))){
-        cout << endl << "Enter the first number:" << endl;
-        SetConsoleTextAttribute(handlem, 6);
-        cin >> first_num;
-        SetConsoleTextAttribute(handlem, 15);
-        if(!(check_numbers(num))){
-            error();
-        }
-    }
-}
-
-void check_number_res2(string num){
-    while(!(check_numbers(num))){
-        cout << endl << "Enter the second number:" << endl;
-        SetConsoleTextAttribute(handlem, 6);
-        cin >> second_num;
-        SetConsoleTextAttribute(handlem, 15);
-        if(!(check_numbers(num))){
-            error();
-        }
-    }
-}
