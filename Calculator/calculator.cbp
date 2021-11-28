@@ -39,8 +39,13 @@
 		<Unit filename="fun_for_main.cpp" />
 		<Unit filename="functions.cpp" />
 		<Unit filename="functions_2.cpp" />
+		<Unit filename="load.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="max_min.cpp" />
+		<Unit filename="music.cpp" />
+		<Unit filename="naruto.wav" />
+		<Unit filename="quiet.wav" />
+		<Unit filename="quiet2.wav" />
 		<Unit filename="sup_pup.h" />
 		<Unit filename="with_elem.cpp" />
 		<Extensions />

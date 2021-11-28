@@ -42,7 +42,16 @@ void check_command(string com){
     else if(com == "/start"){
         main2();
     }
-    else if(com != "/help" and com != "/menu" and com != "/start" and com != "/inf"){
+    else if(com == "/mus"){
+        music_menu();
+    }
+    else if(com == "/story"){
+        story();
+    }
+    else if(com != "/help" and com != "/menu" and com != "/start" and com != "/inf" and com != "/mus1" and com != "/mus2" and com != "/mus3" and com!= "/mus4" and com != "/story"){
         error();
+    }
+    else{
+        change_music(com);
     }
 }

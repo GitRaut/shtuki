@@ -4,7 +4,9 @@ void help(){
     cout << endl;
     print("   ***************************************************************    **************************************");
     print("   *                                                             *    *                                    *");
-    print("   *    List of commands:                                        *    *                  ----------------  *");
+    print("   *    List of commands:                                        *    *                                    *");
+    print("   *                                                             *    *                                    *");
+    print("   *       -/story   (to see all actions in calculator);         *    *                  ----------------  *");
     print("   *                                                             *    *     /|_____/\\   / There's the    | *");
     print("   *       -/menu    (to return to the main menu);               *    *    /  o   o  \\  | list of        | *");
     print("   *                                                             *    *   ( ==  0  == ).| commands.      / *");
@@ -12,7 +14,9 @@ void help(){
     print("   *                                                             *    *   (           )                    *");
     print("   *       -/finish  (to end the program);                       *    *  ( (  )   (  ) )                   *");
     print("   *                                                             *    * (__(__)___(__)__)                  *");
-    print("   *       -/inf   (to read some history);                       *    *                                    *");
+    print("   *       -/inf     (to read some history);                     *    *                                    *");
+    print("   *                                                             *    *                                    *");
+    print("   *       -/mus     (to change music);                          *    *                                    *");
     print("   *                                                             *    *                                    *");
     print("   ***************************************************************    **************************************");
     cout << endl;
@@ -35,6 +39,24 @@ void information(){
     print("   *                       -------------------------------------------------------------------------    *");
     print("   *                                                                                                    *");
     print("   ******************************************************************************************************");
+    cout << endl;
+}
+
+void music_menu(){
+    cout << endl;
+    print("   ***************************************************************    **************************************");
+    print("   *                                                             *    *                                    *");
+    print("   *    List of tracks:                                          *    *                  ----------------  *");
+    print("   *                                                             *    *     /|_____/\\   / There's the    | *");
+    print("   *       -/mus1   (to play crazy music);                       *    *    /  o   o  \\  | list of        | *");
+    print("   *                                                             *    *   ( ==  0  == ).| tracks.         / *");
+    print("   *       -/mus2   (to play quiet music);                       *    *    )         (   ---------------   *");
+    print("   *                                                             *    *   (           )                    *");
+    print("   *       -/mus3   (to play Naruto misic);                      *    *  ( (  )   (  ) )                   *");
+    print("   *                                                             *    * (__(__)___(__)__)                  *");
+    print("   *       -/mus4   (to play funny music);                       *    *                                    *");
+    print("   *                                                             *    *                                    *");
+    print("   ***************************************************************    **************************************");
     cout << endl;
 }
 

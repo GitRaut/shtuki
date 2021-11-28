@@ -35,22 +35,12 @@ void print(string print){
         if(i % 10 == 0){
             Sleep(1);
         }
-        else if((print[i] >= 'A' and print[i] <= 'Z') or (print[i] >= 'a' and print[i] <= 'z')){
+        else if((print[i] >= 'A' and print[i] <= 'Z') or (print[i] >= 'a' and print[i] <= 'z') and print[i] % 2 == 0){
             Sleep(1);
         }
     }
     mciSendString(TEXT("stop clava.wav"), NULL, 0, NULL);
     cout << endl;
-}
-
-void reader(string ans, string res){
-    ofstream out("D:\\Code\\calculator\\History.txt", ios::app);
-    if (out.is_open())
-    {
-        out << ans << res << endl;
-        out << "-" << endl << endl;
-    }
-    out.close();
 }
 
 string check_otv(string result){
@@ -65,4 +55,14 @@ string check_otv(string result){
         return otv;
     }
     return "0";
+}
+
+bool check_numbers(string num){
+    num = slice(num);
+    for(int i = 0; i < itc_len(num); i++){
+        if(num[i] < '0' and num[i] > '9'){
+            return false;
+        }
+    }
+    return true;
 }

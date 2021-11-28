@@ -25,8 +25,8 @@ string sum(string first, string second){
 }
 
 string subtraction(string first, string second){
-    long long max = max_len(first, second), min = min_len(first, second);
     int fir = 0, sec = 0, point = 0, sub = fir - sec - point, col;
+    long long max = max_len(first, second), min = min_len(first, second);
     string res, result, minstr = min_str(first, second), maxstr = max_str(first, second);
     maxstr = reverse_str(maxstr);
     minstr = reverse_str(minstr);
@@ -53,9 +53,9 @@ string subtraction(string first, string second){
 }
 
 string multiply(string first, string second){
-    long long max = max_len(first, second), min = min_len(first, second);
     vector <string> mass(min);
     int fir = 0, sec = 0, point = 0, flag = fir * sec + point;
+    long long max = max_len(first, second), min = min_len(first, second);
     string res, result, minstr = min_str(first, second), maxstr = max_str(first, second);
     maxstr = reverse_str(maxstr);
     minstr = reverse_str(minstr);
