@@ -25,7 +25,6 @@ void reader(string ans, string res){
     }
     out.close();
 }
-<<<<<<< HEAD
 
 void error_null(){
     SetConsoleTextAttribute(handlel, 12);
@@ -65,5 +64,3 @@ string check_del(string first, string second){
     }
     return del(first, second);
 }
-=======
->>>>>>> bad00f03d28d56bb686bb69422844c6ef3d3f362

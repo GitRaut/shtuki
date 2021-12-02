@@ -2,25 +2,8 @@
 
 HANDLE handlem = GetStdHandle(STD_OUTPUT_HANDLE);
 
-void main3(){
-
-}
-void main2(){
-    string first_num = "", second_num = "", znak = "", result, flag, ans;//commands for console, numbers, operator(+, - , *), result of calculating                                                             //count of iterations in while
-    while(znak != "+" and znak != "-" and znak != "*" and znak != "/"){
-        cout << "What do you want to do with numbers?: (+, -, *, /)" << endl;
-        SetConsoleTextAttribute(handlem, 6);
-        cin >> znak;
-        SetConsoleTextAttribute(handlem, 15);
-        check_value(znak);
-    }
-    cout << endl << "Enter the first number:" << endl;
-    SetConsoleTextAttribute(handlem, 6);
-    cin >> first_num;
-    SetConsoleTextAttribute(handlem, 15);
-    cout << endl << "Enter the second number:" << endl;
-    SetConsoleTextAttribute(handlem, 6);
-    cin >> second_num;
+void main3(string first_num, string second_num, string znak){
+    string result, flag, ans;
     SetConsoleTextAttribute(handlem, 15);
     cout << endl << "Answer:" << endl;
     cout << answer(first_num, second_num, znak);                        //functions for printing answer
@@ -30,6 +13,30 @@ void main2(){
     flag = check_otv(result);
     reader(ans, flag);
     SetConsoleTextAttribute(handlem, 15);
+}
+
+void main2(){
+    string first_num = "a", second_num = "a", znak = "", result, flag, ans;//commands for console, numbers, operator(+, - , *), result of calculating                                                             //count of iterations in while
+    while(znak != "+" and znak != "-" and znak != "*" and znak != "/"){
+        cout << "What do you want to do with numbers?: (+, -, *, /)" << endl;
+        SetConsoleTextAttribute(handlem, 6);
+        cin >> znak;
+        SetConsoleTextAttribute(handlem, 15);
+        check_value(znak);
+    }
+    while(!(numbol(first_num)) or !(numbol(second_num))){
+        cout << endl << "Enter the first number:" << endl;
+        SetConsoleTextAttribute(handlem, 6);
+        cin >> first_num;
+        SetConsoleTextAttribute(handlem, 15);
+        cout << endl << "Enter the second number:" << endl;
+        SetConsoleTextAttribute(handlem, 6);
+        cin >> second_num;
+        if(!(numbol(first_num)) or !(numbol(second_num))){
+            error();
+        }
+    }
+    main3(first_num, second_num, znak);
     znak = "";
 }
 

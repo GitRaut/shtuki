@@ -33,6 +33,7 @@ long long min_len(string first, string second);
 long long max_len(string first, string second);
 
 int isInt(char ch);
+bool numbol(string str);
 int symbol(string str);
 int char_to_int(char symbol);
 int get_char_int(string str, int index);

@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1638434026 source:d:\code\calculator\main.cpp
+1638445851 source:d:\code\calculator\main.cpp
 	"sup_pup.h"
 
 1638168875 source:d:\code\calculator\print.cpp
 	"sup_pup.h"
 
-1638433922 d:\code\calculator\sup_pup.h
+1638440055 d:\code\calculator\sup_pup.h
 	<iostream>
 	<string>
 	<vector>
@@ -22,7 +22,7 @@
 1638436169 source:d:\code\calculator\fun_for_main.cpp
 	"sup_pup.h"
 
-1637793387 source:d:\code\calculator\max_min.cpp
+1638439364 source:d:\code\calculator\max_min.cpp
 	"sup_pup.h"
 
 1638203964 source:d:\code\calculator\with_elem.cpp
@@ -37,6 +37,6 @@
 1638432575 source:d:\code\calculator\load.cpp
 	"sup_pup.h"
 
-1638434163 source:d:\code\calculator\dop2.cpp
+1638445798 source:d:\code\calculator\dop2.cpp
 	"sup_pup.h"
 
