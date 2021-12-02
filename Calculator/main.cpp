@@ -42,7 +42,6 @@ void main2(){
 
 int main()
 {
-    //cout << del("10","2") << endl << del("100","5") << endl << del("99999","2") << endl << del("99999","22") << endl << del("100000000000000000000000","2") << endl;
     int col = 0;
     string command = "";
     menu_part1();               //function for printing main menu
