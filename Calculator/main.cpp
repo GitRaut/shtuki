@@ -47,7 +47,6 @@ int main()
     menu_part1();               //function for printing main menu
     menu_part2();
     PlaySound( "music.wav", NULL, SND_FILENAME | SND_ASYNC | SND_LOOP );
-    //mciSendString(TEXT("play music.wav"), NULL, 0, NULL);
     while(command != "/finish"){//finish stops the program
         check_col(col);
         SetConsoleTextAttribute(handlem, 6);
