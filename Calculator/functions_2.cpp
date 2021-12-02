@@ -46,31 +46,33 @@ string reverse_str(string str){
 
 string result_str(string first, string second, string znak){
     int flag = symbol(first) * symbol(second) * symbol(znak);
-    string otvet, fir, sec;
-    if(flag == 1){
-        fir = first;
-        sec = second;
-        first = slice(first);
-        second = slice(second);
-        if(fir[0] == '-' and sec[0] == '-') return "-" + sum(first, second);
-        else if(fir[0] == '-' and sec[0] != '-') return "-" + sum(first, second);
-        return sum(first, second);
-    }
-    else if(flag == -1){
-        fir = first;
-        sec = second;
-        first = slice(first);
-        second = slice(second);
-        if(fir[0] == '-' and (sec[0] != '-')) return  "-" + subtraction(first, second);
-        else if(fir[0] == '-' and sec[0] == '-') return "-" + subtraction(first, second);
-        return subtraction(first, second);
-    }
-    else if(flag == 10){
-        first = slice(first);
-        second = slice(second);
-        return multiply(first, second);
-    }
+    string otvet, fir = first, sec = second;
     first = slice(first);
     second = slice(second);
-    return "-" + multiply(first, second);
+    first = slice_null(first);
+    second = slice_null(second);
+    if(flag == 1){
+        if(fir[0] == '-' and sec[0] == '-' and check_sum(first, second) != "0") return "-" + sum(first, second);
+        else if(fir[0] == '-' and sec[0] != '-' and check_sum(first, second) != "0") return "-" + sum(first, second);
+        return check_sum(first, second);
+    }
+    else if(flag == -1){
+        if(fir[0] == '-' and (sec[0] != '-') and check_minus(first, second) != "0") return  "-" + subtraction(first, second);
+        else if(fir[0] == '-' and sec[0] == '-' and check_minus(first, second) != "0") return "-" + subtraction(first, second);
+        return check_minus(first, second);
+    }
+    else if(flag == 10){
+        return check_mult(first, second);
+    }
+    else if(flag == -10){
+        if(check_mult(first, second) != "0") return "-" + multiply(first, second);
+        return check_mult(first, second);
+    }
+    else if(flag == 20){
+        return check_del(first, second);
+    }
+    else if(check_del(first, second) == "0"){
+        return "0";
+    }
+    return "-" + check_del(first, second);
 }

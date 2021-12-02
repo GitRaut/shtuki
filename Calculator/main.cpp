@@ -2,10 +2,13 @@
 
 HANDLE handlem = GetStdHandle(STD_OUTPUT_HANDLE);
 
+void main3(){
+
+}
 void main2(){
     string first_num = "", second_num = "", znak = "", result, flag, ans;//commands for console, numbers, operator(+, - , *), result of calculating                                                             //count of iterations in while
-    while(znak != "+" and znak != "-" and znak != "*"){
-        cout << "What do you want to do with numbers?: (+, -, *)" << endl;
+    while(znak != "+" and znak != "-" and znak != "*" and znak != "/"){
+        cout << "What do you want to do with numbers?: (+, -, *, /)" << endl;
         SetConsoleTextAttribute(handlem, 6);
         cin >> znak;
         SetConsoleTextAttribute(handlem, 15);
@@ -20,9 +23,9 @@ void main2(){
     cin >> second_num;
     SetConsoleTextAttribute(handlem, 15);
     cout << endl << "Answer:" << endl;
-    cout << answer(first_num, second_num, znak);                      //functions for printing answer
+    cout << answer(first_num, second_num, znak);                        //functions for printing answer
     result = result_str(first_num, second_num, znak);
-    cout << check_otv(result) << endl << endl;
+    cout << check_otv(result) << endl << endl;                          //function for printing result
     ans = answer(first_num, second_num, znak);
     flag = check_otv(result);
     reader(ans, flag);
@@ -32,6 +35,7 @@ void main2(){
 
 int main()
 {
+    //cout << del("10","2") << endl << del("100","5") << endl << del("99999","2") << endl << del("99999","22") << endl << del("100000000000000000000000","2") << endl;
     int col = 0;
     string command = "";
     menu_part1();               //function for printing main menu
@@ -44,7 +48,7 @@ int main()
         cin >> command;        //command reader
         SetConsoleTextAttribute(handlem, 15);
         system("cls");         //clean the console
-        check_command(command);
+        check_command(command);//check cin >> command
         col = 1;
     }
 }

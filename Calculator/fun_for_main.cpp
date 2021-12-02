@@ -29,29 +29,29 @@ void check_col( int col){
 }
 
 void check_command(string com){
-    if(com == "/help"){
+    if(com == "/help" or com == ".рудз"){
         help();             //function for printing "help" menu with list of commands
     }
-    else if(com == "/menu"){
+    else if(com == "/menu" or com == ".ьутг"){
         menu_part1();             //function for printing main menu
         menu_part2();
     }
-    else if(com == "/inf"){
+    else if(com == "/inf" or com == ".шта"){
         information();      //function for printing inf about calculator
     }
-    else if(com == "/start"){
+    else if(com == "/start" or com == ".ыефке"){
         main2();
     }
-    else if(com == "/mus"){
+    else if(com == "/mus" or com == ".ьгы"){
         music_menu();
     }
-    else if(com == "/story"){
+    else if(com == "/story" or com == ".ыещкн"){
         story();
     }
-    else if(com != "/help" and com != "/menu" and com != "/start" and com != "/inf" and com != "/mus1" and com != "/mus2" and com != "/mus3" and com!= "/mus4" and com != "/story"){
-        error();
+    else if(com == "/mus1" or com == "/mus2" or com == "/mus3" or com == "/mus4" or com == "HAPPYNEWYEAR"){
+        change_music(com);
     }
     else{
-        change_music(com);
+        error();
     }
 }

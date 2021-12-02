@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1638088811 source:d:\code\calculator\main.cpp
+1638434026 source:d:\code\calculator\main.cpp
 	"sup_pup.h"
 
-1638088811 source:d:\code\calculator\print.cpp
+1638168875 source:d:\code\calculator\print.cpp
 	"sup_pup.h"
 
-1638087910 d:\code\calculator\sup_pup.h
+1638433922 d:\code\calculator\sup_pup.h
 	<iostream>
 	<string>
 	<vector>
@@ -13,27 +13,30 @@
 	<windows.h>
 	<fstream>
 
-1638088025 source:d:\code\calculator\functions.cpp
+1638399096 source:d:\code\calculator\functions.cpp
 	"sup_pup.h"
 
-1637844419 source:d:\code\calculator\functions_2.cpp
+1638434659 source:d:\code\calculator\functions_2.cpp
 	"sup_pup.h"
 
-1638088939 source:d:\code\calculator\fun_for_main.cpp
+1638436169 source:d:\code\calculator\fun_for_main.cpp
 	"sup_pup.h"
 
 1637793387 source:d:\code\calculator\max_min.cpp
 	"sup_pup.h"
 
-1637843667 source:d:\code\calculator\with_elem.cpp
+1638203964 source:d:\code\calculator\with_elem.cpp
 	"sup_pup.h"
 
-1638084937 source:d:\code\calculator\dop.cpp
+1638205634 source:d:\code\calculator\dop.cpp
 	"sup_pup.h"
 
-1638056125 source:d:\code\calculator\music.cpp
+1638435857 source:d:\code\calculator\music.cpp
 	"sup_pup.h"
 
-1638096505 source:d:\code\calculator\load.cpp
+1638432575 source:d:\code\calculator\load.cpp
+	"sup_pup.h"
+
+1638434163 source:d:\code\calculator\dop2.cpp
 	"sup_pup.h"
 

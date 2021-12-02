@@ -53,9 +53,9 @@ string subtraction(string first, string second){
 }
 
 string multiply(string first, string second){
-    vector <string> mass(min);
     int fir = 0, sec = 0, point = 0, flag = fir * sec + point;
     long long max = max_len(first, second), min = min_len(first, second);
+    vector <string> mass(min);
     string res, result, minstr = min_str(first, second), maxstr = max_str(first, second);
     maxstr = reverse_str(maxstr);
     minstr = reverse_str(minstr);
@@ -79,4 +79,38 @@ string multiply(string first, string second){
         mass[i + 1] = sum(mass[i], mass[i + 1]);
     }
     return mass[min - 1];
+}
+
+string del(string first, string second){
+    long long len = itc_len(first), len2 = itc_len(second);
+    string fir, sec = second, result, ostat;
+    fir = itc_slice_str(first, 0, len2 - 1);
+    if(fir != second and fir == min_str(fir, second)){
+        fir = itc_slice_str(first, 0, len2);
+    }
+    long long i = itc_len(fir) - 1, iter = 0;
+    while(i <= len - 1){
+        if( itc_ToInt(fir) != 0){
+            while(sec != max_str(fir, sec)){
+                sec = sum(sec, second);
+                iter = iter + 1;
+            }
+        }
+        if(subtraction(fir, sec) != "0"){
+            sec = subtraction(sec, second);
+        }
+        else{
+            iter++;
+        }
+        fir = subtraction(fir, sec);
+        result += itc_ToString(iter);
+        sec = second;
+        iter = 0;
+        i++;
+        fir = fir + first[i];
+        if(itc_slice_str(first, i, len - 1) == min_str(first, second)){
+            result += "0";
+        }
+    }
+    return result;
 }

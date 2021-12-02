@@ -14,4 +14,7 @@ void change_music(string com){
     else if(com == "/mus4"){
         PlaySound( "quiet2.wav", NULL, SND_FILENAME | SND_ASYNC | SND_LOOP );
     }
+    else if(com == "HAPPYNEWYEAR"){
+        PlaySound( "christmas.wav", NULL, SND_FILENAME | SND_ASYNC | SND_LOOP );
+    }
 }

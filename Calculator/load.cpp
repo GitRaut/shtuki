@@ -1,8 +1,11 @@
 #include "sup_pup.h"
 
+HANDLE handlel = GetStdHandle(STD_OUTPUT_HANDLE);
+
 void story(){
     ifstream inout("D:\\Code\\calculator\\History.txt", ios::in);
     string str;
+    int i = 1;
     if (inout.is_open())
     {
         while ( getline (inout,str) )
@@ -23,26 +26,41 @@ void reader(string ans, string res){
     out.close();
 }
 
-void check_number_res1(string num){
-    while(!(check_numbers(num))){
-        cout << endl << "Enter the first number:" << endl;
-        SetConsoleTextAttribute(handlem, 6);
-        cin >> first_num;
-        SetConsoleTextAttribute(handlem, 15);
-        if(!(check_numbers(num))){
-            error();
-        }
-    }
+void error_null(){
+    SetConsoleTextAttribute(handlel, 12);
+    cout << endl << "Error! You can't divide by zero!" << endl;
+    cout << "Try again." << endl << endl;
+    SetConsoleTextAttribute(handlel, 15);
 }
 
-void check_number_res2(string num){
-    while(!(check_numbers(num))){
-        cout << endl << "Enter the second number:" << endl;
-        SetConsoleTextAttribute(handlem, 6);
-        cin >> second_num;
-        SetConsoleTextAttribute(handlem, 15);
-        if(!(check_numbers(num))){
-            error();
-        }
+string itc_ToString(int num){
+    string res = "", result = "";
+    int point;
+    if(num == 0){
+        return "0";
     }
+    while(num > 0){
+        point = num % 10;
+        res += '0' + point;
+        num = num / 10;
+    }
+    for(int i = itc_len(res) - 1; i >= 0; i--){
+        result += res[i];
+    }
+    return result;
+}
+
+string check_del(string first, string second){
+    if(second == "0" or second == "-0" or second == "+0"){
+        cout << endl;
+        error_null();
+        return "";
+    }
+    else if(first == "0" or first == "-0" or first == "+0"){
+        return "0";
+    }
+    else if(second == "1"){
+        return first;
+    }
+    return del(first, second);
 }

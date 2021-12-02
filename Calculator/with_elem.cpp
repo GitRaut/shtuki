@@ -23,6 +23,9 @@ int symbol(string str){
     else if(str[0] == '*'){
         return 10;
     }
+    else if(str[0] == '/'){
+        return 20;
+    }
 }
 
 string slice(string str){

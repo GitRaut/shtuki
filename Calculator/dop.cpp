@@ -11,7 +11,7 @@ string count_of_nul(long long iter){
 }
 
 void check_value(string znak){
-    if(znak != "+" and znak != "-" and znak != "*"){
+    if(znak != "+" and znak != "-" and znak != "*" and znak != "/"){
         error();
     }
 }
@@ -49,12 +49,9 @@ string check_otv(string result){
         SetConsoleTextAttribute(handlep, 6);
         otv = itc_slice_str(result, 2, itc_len(result) - 1);
         return otv;
-    } else{
-        SetConsoleTextAttribute(handlep, 6);
-        otv = result;
-        return otv;
     }
-    return "0";
+    SetConsoleTextAttribute(handlep, 6);
+    return result;
 }
 
 bool check_numbers(string num){

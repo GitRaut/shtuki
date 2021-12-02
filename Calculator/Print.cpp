@@ -49,7 +49,7 @@ void music_menu(){
     print("   *    List of tracks:                                          *    *                  ----------------  *");
     print("   *                                                             *    *     /|_____/\\   / There's the    | *");
     print("   *       -/mus1   (to play crazy music);                       *    *    /  o   o  \\  | list of        | *");
-    print("   *                                                             *    *   ( ==  0  == ).| tracks.         / *");
+    print("   *                                                             *    *   ( ==  0  == ).| tracks.        / *");
     print("   *       -/mus2   (to play quiet music);                       *    *    )         (   ---------------   *");
     print("   *                                                             *    *   (           )                    *");
     print("   *       -/mus3   (to play Naruto misic);                      *    *  ( (  )   (  ) )                   *");

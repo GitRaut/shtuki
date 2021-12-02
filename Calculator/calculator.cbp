@@ -34,8 +34,10 @@
 		</Compiler>
 		<Unit filename="History.txt" />
 		<Unit filename="Print.cpp" />
+		<Unit filename="christmas.wav" />
 		<Unit filename="clava.wav" />
 		<Unit filename="dop.cpp" />
+		<Unit filename="dop2.cpp" />
 		<Unit filename="fun_for_main.cpp" />
 		<Unit filename="functions.cpp" />
 		<Unit filename="functions_2.cpp" />
