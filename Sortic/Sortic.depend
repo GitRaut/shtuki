@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1643390713 source:d:\code\sortic\main.cpp
+	"header.h"
+
+1643870662 d:\code\sortic\header.h
+	<iostream>
+	<vector>
+	<string>
+	<windows.h>
+	<fstream>
+
+1643380278 source:d:\code\sortic\s_func.cpp
+	"header.h"
+
+1643381377 source:d:\code\sortic\p_func.cpp
+	"header.h"
+
+1643381885 source:d:\code\sortic\r_func.cpp
+	"header.h"
+
+1643382393 source:d:\code\sortic\rr_func.cpp
+	"header.h"
+
+1643870674 source:d:\code\sortic\dop_func.cpp
+	"header.h"
+
+1643820178 source:d:\code\sortic\min_max_func.cpp
+	"header.h"
+
+1643875978 source:d:\code\sortic\sortic.cpp
+	"header.h"
+
+1643869000 source:d:\code\sortic\dop_func_dop.cpp
+	"header.h"
+
+1643874473 source:d:\code\sortic\vvod_strokoy_to_list(3).cpp
+	"header.h"
+
+1643871534 source:d:\code\sortic\story_file.cpp
+	"header.h"
+
