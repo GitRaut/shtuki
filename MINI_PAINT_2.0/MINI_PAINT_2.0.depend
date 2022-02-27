@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1645812096 source:d:\code\mini_paint_2.0\main.cpp
+	"mini_paint.h"
+
+1645898680 d:\code\mini_paint_2.0\mini_paint.h
+	<iostream>
+	<windows.h>
+	<fstream>
+	<string>
+	<vector>
+	<stdio.h>
+	<sstream>
+
+1645780111 source:d:\code\mini_paint_2.0\dop.cpp
+	"mini_paint.h"
+
+1645902028 source:d:\code\mini_paint_2.0\draw_func.cpp
+	"mini_paint.h"
+
+1645778314 source:d:\code\mini_paint_2.0\reader.cpp
+	"mini_paint.h"
+
+1645895696 source:d:\code\mini_paint_2.0\check_func.cpp
+	"mini_paint.h"
+
+1645898697 source:d:\code\mini_paint_2.0\controller.cpp
+	"mini_paint.h"
+
+1645901120 source:d:\code\mini_paint_2.0\render.cpp
+	"mini_paint.h"
+
+1645959957 source:d:\code\mini_paint_2.0\save_fig.cpp
+	"mini_paint.h"
+
