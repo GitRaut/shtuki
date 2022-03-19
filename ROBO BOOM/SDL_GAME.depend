@@ -1,0 +1,879 @@
+# depslib dependency file v1.0
+1647016022 source:f:\code\sdl_game\main.cpp
+	"GAME.h"
+
+1647025451 f:\code\sdl_game\game.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+
+1645986701 source:f:\code\sdl_game\simple_figures.cpp
+	"GAME.h"
+
+1647029770 source:f:\code\sdl_game\main_functions.cpp
+	"GAME.h"
+
+1647026926 f:\code\sdl_game\player.h
+	"GAME.h"
+
+1647029888 source:f:\code\sdl_game\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1646981400 source:f:\code\sdl_game\camera.cpp
+	"GAME.h"
+	"Camera.h"
+
+1647016237 f:\code\sdl_game\camera.h
+	"GAME.h"
+
+1646911962 source:f:\code\sdl_game\gameobject.cpp
+	"GAME.h"
+	"GameObject.h"
+
+1646898494 f:\code\sdl_game\gameobject.h
+	"GAME.h"
+
+1647023938 f:\code\sdl_game\scene.h
+	"GAME.h"
+
+1647024117 source:f:\code\sdl_game\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647028979 source:f:\code\sdl_game\game.cpp
+	"GAME.h"
+
+1646671660 source:f:\code\sdl_game_copy\gameobject.cpp
+	"GAME.h"
+	"GameObject.h"
+
+1646696306 f:\code\sdl_game_copy\game.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<vector>
+	<cmath>
+	<string>
+	"GameObject.h"
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+
+1646672369 f:\code\sdl_game_copy\gameobject.h
+	"GAME.h"
+
+1646696523 f:\code\sdl_game_copy\scene.h
+	"GAME.h"
+
+1646696532 f:\code\sdl_game_copy\player.h
+	"GAME.h"
+
+1646696525 f:\code\sdl_game_copy\camera.h
+	"GAME.h"
+
+1646696257 source:f:\code\sdl_game_copy\main.cpp
+	"GAME.h"
+
+1646421731 source:f:\code\sdl_game_copy\main_functions.cpp
+	"GAME.h"
+
+1645986701 source:f:\code\sdl_game_copy\simple_figures.cpp
+	"GAME.h"
+
+1646696526 source:f:\code\sdl_game_copy\camera.cpp
+	"GAME.h"
+	"Camera.h"
+
+1646696437 source:f:\code\sdl_game_copy\game.cpp
+	"GAME.h"
+
+1646696533 source:f:\code\sdl_game_copy\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1646696524 source:f:\code\sdl_game_copy\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1646903144 f:\code\sdl_game\bot.h
+	"GAME.h"
+
+1646901431 source:f:\code\sdl_game\bot.cpp
+	"GAME.h"
+	"Bot.h"
+
+1647064330 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\camera.cpp
+	"GAME.h"
+	"Camera.h"
+
+1647504813 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Prisoner.h"
+	"Helicopter.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+	"Bot_tank.h"
+	"element.h"
+	"Gallery.h"
+
+1647503939 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647537373 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647503938 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647545322 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647503939 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647503939 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647533176 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647503939 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647503939 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647530053 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bot_robot.h
+
+1647503938 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647503947 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647503947 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\user_interface.h
+
+1647503947 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647525077 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647537762 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647546739 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647537451 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647172791 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647172415 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+
+1647064332 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647092822 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647064332 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647067386 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647067386 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.h
+
+1647067386 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647067386 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647005742 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.h
+
+1647135728 f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647067566 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647175014 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647174192 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647064332 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647174179 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647064332 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647092496 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647067566 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647136381 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647170364 source:f:\code\sdl_game_robo_final (1)\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647265507 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647439641 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Prisoner.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+	"Bot_tank.h"
+
+1647176491 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647367897 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647176490 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647176490 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647280489 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.h
+
+1647176490 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647176496 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647449665 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.h
+
+1647176490 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647444340 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647176490 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647451709 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647452412 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647176490 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647447478 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647450236 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647176491 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647451327 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647176496 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647241336 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\prisoner.h
+	"GAME.h"
+
+1647236602 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\prisoner.cpp
+	"Prisoner.h"
+	"GAME.h"
+
+1647445754 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bot_tank.h
+	"GAME.h"
+
+1647448584 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final (1)\sdl_game_robo_final\bot_tank.cpp
+	"Bot_tank.h"
+	"GAME.h"
+
+1647489934 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647460308 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Prisoner.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+	"Bot_tank.h"
+	"element.h"
+	"Gallery.h"
+
+1647176492 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647495708 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647176492 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647241338 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\prisoner.h
+	"GAME.h"
+
+1647176492 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647489902 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bot_robot.h
+
+1647176492 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647176498 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647449666 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.h
+
+1647489783 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647445756 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bot_tank.h
+	"GAME.h"
+
+1647448586 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bot_tank.cpp
+	"Bot_tank.h"
+	"GAME.h"
+
+1647444342 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647489750 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647495531 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647491085 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647176492 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647447480 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647491294 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647236604 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\prisoner.cpp
+	"Prisoner.h"
+	"GAME.h"
+
+1647176492 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647451328 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647176498 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647279291 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\element.h
+	"GAME.h"
+
+1647278827 f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\gallery.h
+	"GAME.h"
+
+1647279340 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\element.cpp
+	"GAME.h"
+	"element.h"
+
+1647279125 source:f:\code\bobo_1_5\sdl_game_robo_final (1)\sdl_game_robo_final\gallery.cpp
+	"GAME.h"
+	"Gallery.h"
+
+1647537762 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\prisoner.h
+	"GAME.h"
+
+1647503938 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647533064 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bot_tank.h
+	"GAME.h"
+
+1647503938 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\element.h
+	"GAME.h"
+
+1647503939 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\gallery.h
+	"GAME.h"
+
+1647537461 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\bot_tank.cpp
+	"Bot_tank.h"
+	"GAME.h"
+
+1647503938 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647503938 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\element.cpp
+	"GAME.h"
+	"element.h"
+
+1647503939 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\gallery.cpp
+	"GAME.h"
+	"Gallery.h"
+
+1647540269 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\prisoner.cpp
+	"Prisoner.h"
+	"GAME.h"
+
+1647508730 c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\helicopter.h
+	"GAME.h"
+
+1647540269 source:c:\users\rcmak\onedrive\informatica\sdl_game_robo_final\helicopter.cpp
+	"Helicopter.h"
+	"GAME.h"
+
+1647552625 source:f:\code\boba_raofbf\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647551034 f:\code\boba_raofbf\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Prisoner.h"
+	"Helicopter.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+	"Bot_tank.h"
+	"element.h"
+	"Gallery.h"
+
+1647503940 f:\code\boba_raofbf\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647556616 f:\code\boba_raofbf\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647503940 f:\code\boba_raofbf\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647537764 f:\code\boba_raofbf\sdl_game_robo_final\prisoner.h
+	"GAME.h"
+
+1647559689 f:\code\boba_raofbf\sdl_game_robo_final\helicopter.h
+	"GAME.h"
+
+1647556787 f:\code\boba_raofbf\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647552320 f:\code\boba_raofbf\sdl_game_robo_final\bot_robot.h
+
+1647557032 f:\code\boba_raofbf\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647503948 f:\code\boba_raofbf\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647503948 f:\code\boba_raofbf\sdl_game_robo_final\user_interface.h
+
+1647503940 f:\code\boba_raofbf\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647558371 f:\code\boba_raofbf\sdl_game_robo_final\bot_tank.h
+	"GAME.h"
+
+1647503940 f:\code\boba_raofbf\sdl_game_robo_final\element.h
+	"GAME.h"
+
+1647547916 f:\code\boba_raofbf\sdl_game_robo_final\gallery.h
+	"GAME.h"
+
+1647558363 source:f:\code\boba_raofbf\sdl_game_robo_final\bot_tank.cpp
+	"Bot_tank.h"
+	"GAME.h"
+
+1647557066 source:f:\code\boba_raofbf\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647562620 source:f:\code\boba_raofbf\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647503940 source:f:\code\boba_raofbf\sdl_game_robo_final\element.cpp
+	"GAME.h"
+	"element.h"
+
+1647547950 source:f:\code\boba_raofbf\sdl_game_robo_final\gallery.cpp
+	"GAME.h"
+	"Gallery.h"
+
+1647566324 source:f:\code\boba_raofbf\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647556796 source:f:\code\boba_raofbf\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647560434 source:f:\code\boba_raofbf\sdl_game_robo_final\helicopter.cpp
+	"Helicopter.h"
+	"GAME.h"
+
+1647503940 source:f:\code\boba_raofbf\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647503940 source:f:\code\boba_raofbf\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647556569 source:f:\code\boba_raofbf\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647560644 source:f:\code\boba_raofbf\sdl_game_robo_final\prisoner.cpp
+	"Prisoner.h"
+	"GAME.h"
+
+1647503940 source:f:\code\boba_raofbf\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647546740 source:f:\code\boba_raofbf\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647503948 source:f:\code\boba_raofbf\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bot_robot.cpp
+	"GAME.h"
+
+1647577982 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\game.h
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL_image.h>
+	<SDL2/SDL_mixer.h>
+	<windows.h>
+	<mmsystem.h>
+	<fstream>
+	<vector>
+	<cmath>
+	<string>
+	"Scene.h"
+	"Player.h"
+	"Camera.h"
+	"Prisoner.h"
+	"Helicopter.h"
+	"Gun.h"
+	"Bot_robot.h"
+	"Vzryv.h"
+	"User_Interface.h"
+	"Bullet.h"
+	"Button.h"
+	"Bot_tank.h"
+	"element.h"
+	"Gallery.h"
+
+1647577804 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\scene.h
+	"GAME.h"
+
+1647577804 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\player.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\camera.h
+	"GAME.h"
+
+1647577804 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\prisoner.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\helicopter.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\gun.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bot_robot.h
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bullet.h
+	"GAME.h"
+	"Bullet.h"
+
+1647577817 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\vzryv.h
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+
+1647577816 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\user_interface.h
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\button.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bot_tank.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\element.h
+	"GAME.h"
+
+1647577803 c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\gallery.h
+	"GAME.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bot_tank.cpp
+	"Bot_tank.h"
+	"GAME.h"
+
+1647582762 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\bullet.cpp
+	"GAME.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\button.cpp
+	"GAME.h"
+	"Button.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\element.cpp
+	"GAME.h"
+	"element.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\gallery.cpp
+	"GAME.h"
+	"Gallery.h"
+
+1647608022 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\game.cpp
+	"GAME.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\gun.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Gun.h"
+	"Player.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\helicopter.cpp
+	"Helicopter.h"
+	"GAME.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\main.cpp
+	"GAME.h"
+
+1647577803 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\main_functions.cpp
+	"GAME.h"
+
+1647577804 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\player.cpp
+	"GAME.h"
+	"Player.h"
+
+1647586841 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\prisoner.cpp
+	"Prisoner.h"
+	"GAME.h"
+
+1647577804 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\scene.cpp
+	"GAME.h"
+	"Scene.h"
+
+1647585356 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\user_interface.cpp
+	"GAME.h"
+	"User_Interface.h"
+
+1647577817 source:c:\users\rcmak\desktop\boba_raofbf\sdl_game_robo_final\vzryv.cpp
+	"GAME.h"
+	"Bot_robot.h"
+	"Bullet.h"
+	"Vzryv.h"
+	"Player.h"
+
