@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL_GAME" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL_GAME" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL_GAME" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bot_robot.cpp" />
+		<Unit filename="Bot_robot.h" />
+		<Unit filename="Bot_tank.cpp" />
+		<Unit filename="Bot_tank.h" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Element.cpp" />
+		<Unit filename="GAME.h" />
+		<Unit filename="Gallery.cpp" />
+		<Unit filename="Gallery.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Gun.cpp" />
+		<Unit filename="Gun.h" />
+		<Unit filename="Helicopter.cpp" />
+		<Unit filename="Helicopter.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Prisoner.cpp" />
+		<Unit filename="Prisoner.h" />
+		<Unit filename="Scene.cpp" />
+		<Unit filename="Scene.h" />
+		<Unit filename="Sounds/MainMenuTheme.wav" />
+		<Unit filename="Sounds/Treck1.wav" />
+		<Unit filename="Sounds/Treck2.wav" />
+		<Unit filename="Sounds/Treck3.wav" />
+		<Unit filename="Sounds/Treck4.wav" />
+		<Unit filename="Sounds/Treck5.wav" />
+		<Unit filename="Sounds/TreckGAME.wav" />
+		<Unit filename="Sounds/ak_47.wav" />
+		<Unit filename="Sounds/aug_1.wav" />
+		<Unit filename="Sounds/bomb_beep.wav" />
+		<Unit filename="Sounds/button_1.wav" />
+		<Unit filename="Sounds/button_2.wav" />
+		<Unit filename="Sounds/button_3.wav" />
+		<Unit filename="Sounds/laser.wav" />
+		<Unit filename="Sounds/null_patron.wav" />
+		<Unit filename="Sounds/pistolet.wav" />
+		<Unit filename="Sounds/rpg.wav" />
+		<Unit filename="Sounds/take.wav" />
+		<Unit filename="Textures/arrow.png" />
+		<Unit filename="Textures/arrow_l.png" />
+		<Unit filename="Textures/arrow_l_active.png" />
+		<Unit filename="Textures/arrow_r_active.png" />
+		<Unit filename="Textures/bot.png" />
+		<Unit filename="Textures/bot_active.png" />
+		<Unit filename="Textures/cursor.png" />
+		<Unit filename="Textures/factory_colis_map.txt" />
+		<Unit filename="Textures/factory_map.png" />
+		<Unit filename="Textures/map.png" />
+		<Unit filename="Textures/map_file.txt" />
+		<Unit filename="Textures/player_1.png" />
+		<Unit filename="Textures/player_avtomat.png" />
+		<Unit filename="Textures/player_avtomat_active.png" />
+		<Unit filename="Textures/player_pistolet.png" />
+		<Unit filename="Textures/player_rpg.png" />
+		<Unit filename="User_Interface.cpp" />
+		<Unit filename="User_Interface.h" />
+		<Unit filename="Vzryv.cpp" />
+		<Unit filename="Vzryv.h" />
+		<Unit filename="element.h" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="main_functions.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
