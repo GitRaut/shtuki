@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1650395445 source:d:\code\sdl_painting\main.cpp
+	<iostream>
+	<vector>
+	<windows.h>
+	<SDL.h>
+
