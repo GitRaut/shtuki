@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1650436098 source:d:\code\sdl_painting\main.cpp
+	"header.h"
+
+1650409503 d:\code\sdl_painting\header.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	"Button.h"
+
+1650411255 source:d:\code\sdl_painting\control_keys.cpp
+	"header.h"
+
+1650405670 source:d:\code\sdl_painting\redraw.cpp
+	"header.h"
+
+1650408946 d:\code\sdl_painting\button.h
+	"header.h"
+
+1650410119 source:d:\code\sdl_painting\button.cpp
+	"header.h"
+	"Button.h"
+
+1650407115 source:d:\code\sdl_painting\dop_functions.cpp
+	"header.h"
+
