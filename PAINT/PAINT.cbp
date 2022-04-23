@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="sdl_painting" />
+		<Option title="PAINT" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/sdl_painting" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/PAINT" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/sdl_painting" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/PAINT" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Brush.cpp" />
+		<Unit filename="Brush.h" />
+		<Unit filename="Canvas.cpp" />
+		<Unit filename="Canvas.h" />
+		<Unit filename="Pixel.cpp" />
+		<Unit filename="Pixel.h" />
+		<Unit filename="color_ramp.png" />
+		<Unit filename="functions.cpp" />
+		<Unit filename="header.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="panel.png" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
