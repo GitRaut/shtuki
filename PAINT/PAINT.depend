@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1650483199 source:d:\code\paint\color.cpp
+	"header.h"
+	"Color.h"
+
+1650727701 d:\code\paint\header.h
+	<iostream>
+	<string>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<windows.h>
+	<SFML/Graphics.hpp>
+	"Brush.h"
+	"Pixel.h"
+	"Canvas.h"
+
+1650485324 d:\code\paint\color.h
+	"header.h"
+
+1650729488 source:d:\code\paint\main.cpp
+	"header.h"
+
+1650727722 d:\code\paint\canvas.h
+	"header.h"
+
+1650729633 source:d:\code\paint\canvas.cpp
+	"header.h"
+	"Canvas.h"
+
+1650614299 source:d:\code\paint\pixel.cpp
+	"header.h"
+	"Pixel.h"
+
+1650636840 d:\code\paint\pixel.h
+	"header.h"
+
+1650727094 source:d:\code\paint\functions.cpp
+	"header.h"
+
+1650728924 d:\code\paint\brush.h
+	"header.h"
+
+1650729262 source:d:\code\paint\brush.cpp
+	"header.h"
+	"Brush.h"
+
